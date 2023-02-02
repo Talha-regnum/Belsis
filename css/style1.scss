@@ -1,288 +1,326 @@
 @font-face {
-  font-family: generalSans-Medium;
-  src: url("./OTF/GeneralSans-Medium.otf");
+    font-family: generalSans-Medium;
+    src: url("./OTF/GeneralSans-Medium.otf");
 }
+
 @font-face {
-  font-family: generalSans-Light;
-  src: url("./OTF/GeneralSans-Light.otf");
+    font-family: generalSans-Light;
+    src: url("./OTF/GeneralSans-Light.otf");
 }
+
 @font-face {
-  font-family: generalSans-Bold;
-  src: url("./OTF/GeneralSans-Bold.otf");
+    font-family: generalSans-Bold;
+    src: url("./OTF/GeneralSans-Bold.otf");
 }
 
 .row {
-  margin: 0px;
+    margin: 0px;
 }
+
 p {
-  margin-bottom: 25px;
-  font-family: generalSans-Light;
-  font-weight: 600;
-  letter-spacing: 0.4px;
+    margin-bottom: 25px;
+    font-family: generalSans-Light;
+    font-weight: 600;
+    letter-spacing: 0.4px;
 }
+
 .navbar {
-  padding-right: 10%;
-  padding-left: 10%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  z-index: 99;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
 }
+
 .scrolled {
-  box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 4px;
 }
+
 .pageContent {
-  padding-right: 10%;
-  padding-left: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
+
 .navbarHr {
-  margin: 0px;
+    margin: 0px;
 }
+
 .footerContainer {
-  padding: 30px 10%;
+    padding: 30px 10%;
 }
+
 .selectedNav {
-  color: #6ca9e4 !important;
-  position: relative;
+    color: #6ca9e4 !important;
+    position: relative;
 }
+
 .selectedNav::after {
-  content: "";
-  display: block;
-  width: 8px;
-  height: 8px;
-  background-color: #6ca9e4;
-  position: absolute;
-  bottom: -8px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  border-radius: 50%;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #6ca9e4;
+    position: absolute;
+    bottom: -8px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
 }
+
 .nav-link {
-  font-size: 15px;
-  line-height: 1;
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-  transition: 0.4s;
+    font-size: 15px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    transition: 0.4s;
 }
+
 .nav-link:hover {
-  color: #6ca9e4 !important;
+    color: #6ca9e4 !important;
 }
 
 .footerHr {
-  border-color: white;
+    border-color: white;
 }
+
 .footerTitleHr {
-  border-color: rgb(75, 75, 75);
-  margin-top: 5px;
-  margin-bottom: 12px;
+    border-color: rgb(75, 75, 75);
+    margin-top: 5px;
+    margin-bottom: 12px;
 }
+
 .footerIcon {
-  color: #6ca9e4;
-  margin-right: 5px;
+    color: #6ca9e4;
+    margin-right: 5px;
 }
+
 .footerText {
-  color: white;
-  font-size: 14px;
+    color: white;
+    font-size: 14px;
 }
+
 .footerText:hover {
-  color: #6ca9e4;
+    color: #6ca9e4;
 }
+
 .footerTitle {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .card {
-  width: 30rem;
-  height: 20rem;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
+
 .cardSection {
-  margin-top: 100px;
+    margin-top: 100px;
 }
+
 .section1-col1 {
-  margin-top: 187px;
+    margin-top: 187px;
 }
+
 .section1-col2 {
-  margin-top: 127px;
+    margin-top: 127px;
 }
+
 .contactUs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5cacf3;
-  color: white;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 500;
-  letter-spacing: 0.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5cacf3;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.9px;
 }
+
 .fa-star {
-  color: orange;
-  margin-left: 10px;
-  margin-bottom: 15px;
+    color: orange;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
+
 .section1Contact {
-  display: flex;
+    display: flex;
 }
+
 .stars {
-  margin-left: 50px;
-  margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
+
 .section1Header {
-  font-size: 70px;
-  font-weight: 400;
-  letter-spacing: -0.4px;
-  color: #252525;
-  font-family: generalSans-Medium;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color: #252525;
+    font-family: generalSans-Medium;
 }
+
 .Section1trustedText {
-  margin-top: 50px;
-  color: #676f7c;
-  font-size: 15px;
+    margin-top: 50px;
+    color: #676f7c;
+    font-size: 15px;
 }
 
 .section2 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #03163b;
-  color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #03163b;
+    color: white;
 }
+
 .section2Header {
-  font-size: 70px;
-  font-weight: 400;
-  letter-spacing: -0.4px;
-  color: white;
-  font-family: generalSans-Medium;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color: white;
+    font-family: generalSans-Medium;
 }
+
 .cardSectionHeader {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 70px;
-  font-weight: 400;
-  letter-spacing: -0.4px;
-  color: #252525;
-  font-family: generalSans-Medium;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    color: #252525;
+    font-family: generalSans-Medium;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  border: 1px solid #03163b;
-  padding: 25px;
-  background-color: #0e4ac2;
-  border-radius: 50%;
-  opacity: 1 !important;
+    border: 1px solid #03163b;
+    padding: 25px;
+    background-color: #0e4ac2;
+    border-radius: 50%;
+    opacity: 1 !important;
 }
+
 .consultancySection {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  border-radius: 15px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px !important;
 }
+
 .indexFormSection {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
 }
+
 .consultancySection {
-  width: 100%;
+    width: 100%;
 }
 
 #carouselExampleIndicators {
-  width: 70%;
+    width: 70%;
 }
+
 .form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
+    position: relative;
+    margin-bottom: 1.5rem;
 }
 
 .form-control-placeholder {
-  position: absolute;
-  top: 0;
-  padding: 7px 0 0 10px;
-  transition: all 200ms;
-  opacity: 0.5;
-  color: #fff;
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    color: #fff;
 }
 
-.form-control:focus + .form-control-placeholder,
-.form-control:valid + .form-control-placeholder {
-  font-size: 69%;
-  transform: translate3d(0, -100%, 0);
-  opacity: 1;
-  top: 10px;
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 69%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+    top: 10px;
 }
 
 .form-control {
-  border: 0;
-  outline: 0;
-  border-bottom: 2px solid #eee;
-  font-size: 16px;
-  color: #ccc;
-  background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #eee;
+    font-size: 16px;
+    color: #ccc;
+    background-color: transparent;
 }
 
 .form-control:focus {
-  border: 0;
+    border: 0;
 
-  color: #fff;
-  background-color: transparent;
-  border-color: #fff;
-  outline: 0;
-  border-bottom: 2px solid #fff;
-  box-shadow: 0 0 0 0.2rem transparent;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    outline: 0;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 0 0 0.2rem transparent;
 }
+
 .indexContactForm {
-  margin-top: 100px;
-  padding: 50px 100px;
-  color: #fff;
-  background: -webkit-linear-gradient(
-      110deg,
-      #5cacf3 40%,
-      rgba(3, 22, 59, 1) 30%
-    ),
-    -webkit-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
-  background: -o-linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
-    -o-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
-  background: -moz-linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
-    -moz-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
-  background: linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
-    radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
+    margin-top: 100px;
+    padding: 50px 100px;
+    color: #fff;
+    background: -webkit-linear-gradient(110deg,
+            #5cacf3 40%,
+            rgba(3, 22, 59, 1) 30%),
+        -webkit-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
+    background: -o-linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
+        -o-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
+    background: -moz-linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
+        -moz-radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
+    background: linear-gradient(110deg, #5cacf3 40%, rgba(3, 22, 59, 1) 30%),
+        radial-gradient(farthest-corner at 0% 0%, #5cacf3 70%, #5cacf3 70%);
 }
+
 .indexContactForm h2 {
-  text-align: center;
+    text-align: center;
 }
+
 .carousel-control-next,
 .carousel-control-prev {
-  width: 0%;
+    width: 0%;
 }
+
 .section2Col1 {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .cardSectionCard {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 .consultancyCard {
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
+
 .consultancyArrow {
-  font-size: 24px;
-  border-radius: 50%;
-  border: 1px solid #03163b;
-  padding: 16px;
-  background-color: #002366;
-  color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid #03163b;
+    padding: 16px;
+    background-color: #002366;
+    color: white;
 }
